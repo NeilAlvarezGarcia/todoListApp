@@ -1,0 +1,20 @@
+.todoItem {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    margin: .3rem;
+    min-height: 40px;
+    border-radius: 12px;
+}
+.todoItem p {
+    flex: 1;
+    word-break: break-all;
+    padding: .5rem;
+}
+.todoItem:last-of-type {
+    margin-bottom: 1rem;
+}
+.todoItem--done {
+    text-decoration: line-through;
+}
